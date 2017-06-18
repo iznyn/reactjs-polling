@@ -1,0 +1,14 @@
+#connection-status {
+  display: inline-block;
+  vertical-align: middle;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+#connection-status.connected {
+  background-color: green;
+}
+#connection-status.disconnected {
+  background-color: red;
+}

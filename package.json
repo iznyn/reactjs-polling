@@ -6,6 +6,7 @@
   "author": "iznyn",
   "license": "MIT",
   "scripts": {
+    "watch": "webpack -d --watch",
     "prestart": "webpack",
     "start": "node app-server.js"
   },
@@ -14,9 +15,13 @@
     "express": "^4.15.3",
     "html-webpack-plugin": "^2.28.0",
     "path": "^0.12.7",
+    "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
     "socket.io": "^2.0.3",
+    "underscore": "^1.8.3",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5"
   },
